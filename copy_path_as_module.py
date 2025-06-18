@@ -14,9 +14,9 @@ class CopyPathAsModule(sublime_plugin.TextCommand):
                 ),
                 key=len,
             )
+            path = path[:-3]
             path = path.split("/")
             path.pop(0)
-            path.pop(-1)
             file = path.pop(-1)
             module = path[-1] + "_" + file
             path = ".".join(path)
