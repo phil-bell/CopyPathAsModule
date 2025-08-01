@@ -1,15 +1,7 @@
-# CopyPathAsModule
+# Copy
 
-Copy the current files path as a python module.
+Package for copying useful things to clipboard
 
-For example:
-```
-my/path/to/file.py
-```
-Will be copied as:
-```
-from path.to import file as to_file
-```
 
 ## Install
 Navigate to: 
@@ -18,8 +10,9 @@ Navigate to:
 ```
 Run:
 ```
-git clone https://github.com/phil-bell/CopyPathAsModule.git
+git clone https://github.com/phil-bell/Copy.git
 ```
 
 ## Operation
-Enter `Copy Relative Path: Copy` in comand pallete
+- `Copy: path as module`
+- `Copy: pytest command`

@@ -4,7 +4,7 @@
         "command": "copy_path_as_module"
     },   
     {
-        "caption": "Copy: pytest path",
+        "caption": "Copy: pytest command",
         "command": "copy_path_as_pytest"
     },
 ]
