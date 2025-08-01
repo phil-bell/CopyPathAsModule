@@ -1,6 +1,10 @@
 [
     {
-        "caption": "Copy Path As Module: Copy",
+        "caption": "Copy: path as module",
         "command": "copy_path_as_module"
-    }
+    },   
+    {
+        "caption": "Copy: pytest path",
+        "command": "copy_path_as_pytest"
+    },
 ]

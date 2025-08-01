@@ -8,10 +8,7 @@ class CopyPathAsModule(sublime_plugin.TextCommand):
         filename = self.view.file_name()
         if len(filename) > 0:
             path = min(
-                (
-                    relpath(filename, folder)
-                    for folder in sublime.active_window().folders()
-                ),
+                (relpath(filename, folder) for folder in sublime.active_window().folders()),
                 key=len,
             )
             path = path[:-3]
